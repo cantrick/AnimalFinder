@@ -99,7 +99,7 @@ public class AnimalInfo extends Activity {
 
 				// These code snippets use an open-source library. http://unirest.io/java
 				HttpResponse<JsonNode> response = Unirest.post("https://camfind.p.mashape.com/image_requests")
-						.header("X-Mashape-Key", "rBApV0DwUWmshlY9GNKfFjOWQHAOp1UAyBojsn2B8gDKYScsNL")
+						.header("X-Mashape-Key", "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 						.field("focus[x]", "480")
 						.field("focus[y]", "640")
 						.field("image_request[altitude]", "27.912109375")
